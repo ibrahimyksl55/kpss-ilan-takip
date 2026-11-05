@@ -1,0 +1,47 @@
+# KPSS Job Aggregation Platform
+
+## Project Overview
+An autonomous system to aggregate and display KPSS job listings from various sources.
+
+## Architecture
+- Frontend: Next.js (TypeScript + Tailwind CSS)
+- Database: Supabase/PostgreSQL
+- Scrapers: Modular scripts (Node.js/Cheerio or Playwright)
+
+## Directory Structure
+- `/scrapers`: Web scraping logic
+- `/lib/supabase`: Supabase configuration and clients
+- `/components`: UI components
+- `/types`: TypeScript interfaces
+- `/pages`: Next.js pages
+
+## Progress
+- [x] Initialized project directories.
+- [x] Created `.clinerules`.
+- [x] Created database schema (`schema.sql`).
+- [x] Created environment template (`.env.example`).
+
+- [x] Initialized project directories.
+- Initialize Next.js project.
+- [x] Initialize Next.js project.
+- [x] Implement scraping engine (SBB, Kariyer Kapısı, İlan.gov.tr).
+- [x] Create orchestration script (`run_all.ts`).
+- [x] Create GitHub Actions workflow (`.github/workflows/scraper_cron.yml`).
+- [x] Create `DEPLOYMENT.md` documentation.
+
+
+
+- [x] Build responsive frontend UI.
+- [x] Implement search and sorting.
+- [x] Finalized project structure.
+
+
+- [x] Created `.clinerules`.
+- [ ] Initialize Next.js (Pending: manual setup due to environment policy).
+- [ ] Created database schema (`schema.sql`).
+- [ ] Created environment template (`.env.example`).
+
+## Active Tasks
+- Set up Next.js configuration manually or fix environment issues.
+- Define SQL schema.
+- Create environment variable template.
